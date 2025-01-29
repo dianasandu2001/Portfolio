@@ -3,7 +3,9 @@
 }
 
 body{
-    background: url("Pictures used in the website/Background.jpg");
+    background: url("Pictures/Background.png");
+    background-size: 500px 500px;
+    background-repeat: repeat;
     margin: auto;
 }
 
@@ -32,17 +34,32 @@ nav ol li a {
     float: left;
     padding-top: 10px;
     padding-left: 10px;
+    width: 5%;
+
 }
 
 .Header_Background {
-    background: #BE43AD;
+    background: #1e0906;
     height: 100px;
     width: 100%;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
 }
 
-.Company_Name h1{
+.Pannel {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70%; /* Adjust width as needed */
+    height: 400%;
+    background-color: rgba(1, 1, 1, 0.5);
+    transform: translateX(-50%); /* Centers the strip */
+    z-index: -1; /* Moves behind the panel */
+    backdrop-filter: blur(3px); /* Applies blur to the background */
+}
+
+.Pannel h1{
     text-align: center;
+    padding-top: 70px;
     font-size: 75px;
     font-weight: bold;
     color: white;
@@ -53,7 +70,7 @@ nav ol li a {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    width: 75%;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -62,7 +79,7 @@ nav ol li a {
     text-align: center;
     font-size: 24px;
     padding-top: 10px;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
     color: white;
 }
