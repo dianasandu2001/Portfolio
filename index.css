@@ -50,12 +50,12 @@ nav ol li a {
     position: absolute;
     top: 0;
     left: 50%;
-    width: 70%; /* Adjust width as needed */
+    width: 70%;
     height: 400%;
     background-color: rgba(1, 1, 1, 0.5);
-    transform: translateX(-50%); /* Centers the strip */
-    z-index: -1; /* Moves behind the panel */
-    backdrop-filter: blur(3px); /* Applies blur to the background */
+    transform: translateX(-50%);
+    z-index: -1;
+    backdrop-filter: blur(3px);
 }
 
 .Pannel h1{
