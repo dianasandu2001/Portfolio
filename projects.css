@@ -3,7 +3,9 @@
 }
 
 body{
-    background: url("Pictures used in the website/Background.jpg");
+    background: url("Pictures/Background2.png");
+    background-size: 200px 200px;
+    background-repeat: repeat;
     margin: auto;
 }
 
@@ -31,7 +33,7 @@ nav ol li a {
 }
 
 .Header_Background {
-    background: #BE43AD;
+    background: #8B7070;
     height: 100px;
     width: 100%;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);

@@ -3,8 +3,8 @@
 }
 
 body{
-    background: url("Pictures/Background.png");
-    background-size: 500px 500px;
+    background: url("Pictures/Background2.png");
+    background-size: 200px 200px;
     background-repeat: repeat;
     margin: auto;
 }
@@ -39,7 +39,8 @@ nav ol li a {
 }
 
 .Header_Background {
-    background: #1e0906;
+    background: #8B7070;
+    /*background: #1e0906;*/
     height: 100px;
     width: 100%;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
@@ -65,7 +66,7 @@ nav ol li a {
     color: white;
 }
 
-.Home_Page_Image {
+.IndexImage {
     display: block;
     text-align: center;
     margin-right: auto;
@@ -74,7 +75,7 @@ nav ol li a {
     border-radius: 20px;
 }
 
-.Home_Page_Text {
+.IndexText {
     display: block;
     text-align: center;
     font-size: 24px;
