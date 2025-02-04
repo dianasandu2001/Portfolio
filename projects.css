@@ -31,12 +31,12 @@ body{
 }
 @media (max-width: 768px) { /* Tablet and below */
     .Pannel h1 {
-      font-size: 50px;
+        font-size: 50px;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     .Pannel h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
 }
   
@@ -50,7 +50,16 @@ body{
     top: 0;
     position: fixed;
 }
-  
+@media (max-width: 768px) { /* Tablet and below */
+    .HeaderBackground {
+        height: 80px;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    .HeaderBackground {
+        height: 60px;
+    }
+}
 header nav ol {
     float: right;
 }
@@ -68,14 +77,14 @@ header nav ol li a {
 }
 @media (max-width: 768px) { /* Tablet and below */
     header nav ol li a {
-      font-size: 14px;
-      padding-inline: 1.5rem;
+        font-size: 14px;
+        padding-inline: 1.5rem;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     header nav ol li a {
-      font-size: 12px;
-      padding-inline: 1rem;
+        font-size: 12px;
+        padding-inline: 1rem;
     }
 }
   .Company_Logo {
@@ -85,7 +94,7 @@ header nav ol li a {
     width: 5%;
 }
 
-  /* Footer */
+/* Footer */
 .FooterBackground {
     background: #8B7070;
     height: 50px;
@@ -111,14 +120,14 @@ footer nav ol li a {
 }
 @media (max-width: 768px) { /* Tablet and below */
     footer nav ol li a {
-      font-size: 14px;
-      padding-inline: 1.5rem;
+        font-size: 14px;
+        padding-inline: 1.5rem;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     footer nav ol li a {
-      font-size: 12px;
-      padding-inline: 1rem;
+        font-size: 12px;
+        padding-inline: 1rem;
     }
 }
   
@@ -132,16 +141,16 @@ footer nav ol li a {
 }
 @media (max-width: 768px) { /* Tablet and below */
     .GameHeading {
-      font-size: 14px;
-      margin-right: 30x;
-      margin-left: 30px;
+        font-size: 14px;
+        margin-right: 30x;
+        margin-left: 30px;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     .GameHeading {
-      font-size: 12px;
-      margin-right: 25x;
-      margin-left: 25px;
+        font-size: 12px;
+        margin-right: 25x;
+        margin-left: 25px;
     }
 }
 .GameImage {
@@ -161,15 +170,15 @@ footer nav ol li a {
 }
 @media (max-width: 768px) { /* Tablet and below */
     .GameText {
-      font-size: 14px;
-      margin-right: 30x;
-      margin-left: 30px;
+        font-size: 14px;
+        margin-right: 30x;
+        margin-left: 30px;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     .GameText {
-      font-size: 12px;
-      margin-right: 25x;
-      margin-left: 25px;
+        font-size: 12px;
+        margin-right: 25x;
+        margin-left: 25px;
     }
 }
