@@ -1,0 +1,122 @@
+* {
+    font-family: "Georgia", serif;
+}
+  
+body{
+    background: url("Pictures/EndlessDreamerBackground.png") no-repeat fixed;
+    background-size: auto;
+    background-position-x: center;
+    margin: 0;
+    padding: 0;
+}
+/* Backgroung Pannel */
+.Pannel {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(1, 1, 1, 0.5);
+    transform: translateX(-50%);
+    z-index: -1;
+    backdrop-filter: blur(3px);
+}
+
+  .Pannel h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+  
+/* Header */
+.HeaderBackground {
+    background: #330D20;
+    /*background: #600033;*/
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    top: 0;
+    position: fixed;
+}
+  
+header nav ol {
+    float: right;
+}
+  
+header nav ol li {
+    display: inline-block;
+    padding-top: 18px;
+}
+  
+header nav ol li a {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    padding-inline: 2rem;
+}
+
+  .Company_Logo {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 5%;
+}
+
+  /* Footer */
+.FooterBackground {
+    background: #330D20;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+}
+  
+footer nav ol li {
+    display: inline-block;
+    padding-top: 18px;
+}
+  
+footer nav ol li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-inline: 2rem;
+}
+  
+/* Page Specific content */
+.GameHeading {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.GameSummary a {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.GameImage {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+.GameText {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    color: white;
+}
