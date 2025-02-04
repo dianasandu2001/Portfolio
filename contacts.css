@@ -29,7 +29,17 @@
       font-weight: bold;
       color: white;
   }
-  
+  @media (max-width: 768px) { /* Tablet and below */
+    .Pannel h1 {
+      font-size: 50px;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    .Pannel h1 {
+      font-size: 30px;
+    }
+}
+
   /* Header */
   .HeaderBackground {
       background: #8B7070;
@@ -49,7 +59,18 @@
       display: inline-block;
       padding-top: 18px;
   }
-  
+  @media (max-width: 768px) { /* Tablet and below */
+    header nav ol li a {
+      font-size: 14px;
+      padding-inline: 1.5rem;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    header nav ol li a {
+      font-size: 12px;
+      padding-inline: 1rem;
+    }
+}
   header nav ol li a {
       font-size: 28px;
       color: white;
@@ -88,13 +109,38 @@
       text-decoration: none;
       padding-inline: 2rem;
   }
-  
+  @media (max-width: 768px) { /* Tablet and below */
+    footer nav ol li a {
+      font-size: 10px;
+      padding-inline: 1.5rem;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    footer nav ol li a {
+      font-size: 8px;
+      padding-inline: 1rem;
+    }
+}
   /* Page Specific content */
 .Text {
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 0px;
     margin-left: 50px;
     color: white;
+}
+@media (max-width: 768px) { /* Tablet and below */
+    .Text {
+      font-size: 14px;
+      margin-right: 30x;
+      margin-left: 30px;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    .Text {
+      font-size: 12px;
+      margin-right: 25x;
+      margin-left: 25px;
+    }
 }
 
 .Image {
