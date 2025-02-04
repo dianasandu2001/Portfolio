@@ -50,7 +50,7 @@ body{
     top: 0;
     position: fixed;
 }
-  @media (max-width: 768px) { /* Tablet and below */
+@media (max-width: 768px) { /* Tablet and below */
     .HeaderBackground {
         height: 80px;
     }
