@@ -95,22 +95,21 @@ footer nav ol li a {
 .IndexText {
     display: block;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 24px;
     padding-top: 10px;
     margin-right: 50px;
     margin-left: 50px;
     color: white;
 }
-/*
-@media (max-width: 768px) { /* Tablet and below
+
+@media (max-width: 768px) { /* Tablet and below */
     .IndexText {
       font-size: 14px;
     }
 }
   
-@media (max-width: 480px) { /* Mobile 
+@media (max-width: 480px) { /* Mobile */
     .IndexText {
       font-size: 12px;
     }
 }
-*/
