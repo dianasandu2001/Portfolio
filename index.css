@@ -8,6 +8,7 @@ body{
     background-repeat: repeat;
     margin: auto;
 }
+
 /* Backgroung Pannel */
 .Pannel {
     position: absolute;
@@ -21,7 +22,6 @@ body{
     z-index: -1;
     backdrop-filter: blur(3px);
 }
-
 .Pannel h1{
     text-align: center;
     padding-top: 70px;
@@ -40,23 +40,19 @@ body{
     top: 0;
     position: fixed;
 }
-
 header nav ol {
     float: right;
 }
-
 header nav ol li {
     display: inline-block;
     padding-top: 18px;
 }
-
 header nav ol li a {
     font-size: 28px;
     color: white;
     text-decoration: none;
     padding-inline: 2rem;
 }
-
 .Company_Logo {
     float: left;
     padding-top: 10px;
@@ -76,12 +72,10 @@ header nav ol li a {
     bottom: 0;
     display: flex;
 }
-
 footer nav ol li {
     display: inline-block;
     padding-top: 18px;
 }
-
 footer nav ol li a {
     font-size: 20px;
     color: white;
@@ -98,13 +92,25 @@ footer nav ol li a {
     width: 50%;
     border-radius: 20px;
 }
-
 .IndexText {
     display: block;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-top: 10px;
     margin-right: 50px;
     margin-left: 50px;
     color: white;
 }
+/*
+@media (max-width: 768px) { /* Tablet and below
+    .IndexText {
+      font-size: 14px;
+    }
+}
+  
+@media (max-width: 480px) { /* Mobile 
+    .IndexText {
+      font-size: 12px;
+    }
+}
+*/
