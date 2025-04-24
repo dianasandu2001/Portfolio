@@ -19,9 +19,19 @@ body{
 
 .GameImage {
     display: block;
-    text-align: center;
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 180px;
     border-radius: 20px;
+}
+
+.TextAndImageCombined {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding-top: 40px;
 }

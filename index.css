@@ -21,6 +21,31 @@ body{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 350px;
     border-radius: 20px;
+}
+.Links {
+    color: #cfb3b3;
+}
+.TextIndex{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+@media (max-width: 768px) { /* Tablet and below */
+    .TextIndex {
+        font-size: 20px;
+        margin-right: 9%;
+        margin-left: 9%;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    .TextIndex {
+        font-size: 16px;
+        margin-right: 9%;
+        margin-left: 9%;
+    }
 }

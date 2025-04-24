@@ -19,8 +19,7 @@ body{
 
 .Image {
     margin-top: 0px;
-    height: 200px;
-    width: 200px;
+    width: 250px;
     border-radius: 25px;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
 }
@@ -33,4 +32,12 @@ body{
     margin-left: auto;
     width: 80%;
     padding-top: 40px;
+}
+.BottomImage {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    border-radius: 20px;
 }

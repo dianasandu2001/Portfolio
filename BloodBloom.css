@@ -1,0 +1,46 @@
+* {
+    font-family: "Georgia", serif;
+}
+  
+body{
+    background: url("Pictures/BloodBloomBackground.png") no-repeat fixed;
+    background-size: auto;
+    background-position-x: center;
+    margin: 0;
+    padding: 0;
+}
+.HeaderBackground {
+    background: #0d0700;
+}
+.FooterBackground {
+    background: #160d01;
+}
+
+.Pannel h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+@media (max-width: 768px) { /* Tablet and below */
+    .Pannel h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px) { /* Mobile */
+    .Pannel h2 {
+        font-size: 16px;
+    }
+}
+
+/* Page Specific content */
+.GameImage {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    border-radius: 5px;
+}
+.Links {
+    color: #fcea0f;
+}

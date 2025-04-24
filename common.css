@@ -32,20 +32,20 @@
     text-align: left;
     font-weight: bold;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     margin-right: 9%;
     margin-left: 9%;
 }
 @media (max-width: 768px) { /* Tablet and below */
     .Subheading {
-        font-size: 28px;
+        font-size: 20px;
         margin-right: 9%;
         margin-left: 9%;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     .Subheading {
-        font-size: 23px;
+        font-size: 18px;
         margin-right: 9%;
         margin-left: 9%;
     }
@@ -54,20 +54,20 @@
     display: block;
     text-align: justify;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 9%;
     margin-left: 9%;
 }
 @media (max-width: 768px) { /* Tablet and below */
     .Text {
-        font-size: 18px;
+        font-size: 15px;
         margin-right: 9%;
         margin-left: 9%;
     }
 }
 @media (max-width: 480px) { /* Mobile */
     .Text {
-        font-size: 16px;
+        font-size: 12px;
         margin-right: 9%;
         margin-left: 9%;
     }
