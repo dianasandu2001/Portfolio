@@ -42,17 +42,16 @@ body{
     border-radius: 5px;
 }
 .Links {
-    color: #fcea0f;
+    color: #fcc50f;
 }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 42.85%;
   height: 0;
   overflow: hidden;
   margin: 40px auto;
   max-width: 800px;
-  border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
